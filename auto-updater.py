@@ -14,7 +14,7 @@ def AddNewKey(data: dict, new: dict) -> dict:
     return result
 
 def CheckUpdate(filename: str, githuburl: str, overwrite: bool = False) -> bool:
-    print(f'{filename} の更新を確認中...')
+    print(f'{filename} の更新を認中...')
     print(f'Checking update for {filename}...')
     try:
         if "/" in filename:
